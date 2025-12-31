@@ -61,3 +61,5 @@ export const testimonials: Testimonial[] = [
 // Get featured testimonials (top 3)
 export const getFeaturedTestimonials = () => testimonials.slice(0, 3);
 
+
+

@@ -247,3 +247,5 @@ export const getFeaturedProjects = () => projects.filter(p => p.tier === 'featur
 export const getNotableProjects = () => projects.filter(p => p.tier === 'notable');
 export const getProjectBySlug = (slug: string) => projects.find(p => p.slug === slug);
 
+
+

@@ -4,10 +4,12 @@ import type { ProfileType, ProfileConfig } from '@/types';
 
 /**
  * Profile configurations for personalized experience
+ * Each profile has a unique color theme
  */
 export const profileConfigs: Record<ProfileType, ProfileConfig> = {
   recruiter: {
     type: 'recruiter',
+    color: '#8B5CF6', // Violet
     tagline: 'Enterprise-ready. Startup-tested. Impact-driven.',
     description: 'Full-Stack Developer with 4 years of experience building AI-powered experiences for Gaming & Entertainment. I turn complex challenges into elegant, scalable solutions.',
     primaryCTA: {
@@ -21,6 +23,7 @@ export const profileConfigs: Record<ProfileType, ProfileConfig> = {
   },
   business: {
     type: 'business',
+    color: '#FF6B35', // Orange
     tagline: 'From idea to impact—faster than you\'d expect.',
     description: 'I help businesses build high-impact digital products—from AI integrations to seamless tech migrations. Let\'s turn your vision into measurable results.',
     primaryCTA: {
@@ -34,6 +37,7 @@ export const profileConfigs: Record<ProfileType, ProfileConfig> = {
   },
   collaborator: {
     type: 'collaborator',
+    color: '#06B6D4', // Cyan
     tagline: 'Let\'s build something worth talking about.',
     description: 'I experiment fearlessly with AI, animations, and cutting-edge tech. Passionate about Gaming, Entertainment, and Education. Always looking for exciting projects and like-minded builders.',
     primaryCTA: {
@@ -47,6 +51,7 @@ export const profileConfigs: Record<ProfileType, ProfileConfig> = {
   },
   explorer: {
     type: 'explorer',
+    color: '#10B981', // Green
     tagline: 'Full-stack for the future. Built for impact.',
     description: 'Full-Stack Developer crafting AI-powered experiences for Gaming & Entertainment. I build what matters.',
     primaryCTA: {

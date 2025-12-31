@@ -5,6 +5,7 @@ export type ProfileType = 'recruiter' | 'business' | 'collaborator' | 'explorer'
 
 export interface ProfileConfig {
   type: ProfileType;
+  color: string; // Hex color for profile-specific theming
   tagline: string;
   description: string;
   primaryCTA: {
